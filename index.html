@@ -1,0 +1,302 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Astrophotos</title>
+  <style>
+    /* The view-only page in the share bucket (share.py uploads it as
+       index.html, next to index.json and img/). Same look as Astronomer's
+       storage browser; self-contained, since nothing else is hosted there. */
+    :root {
+      --bg: #0b0e14; --surface: #131823; --surface-2: #1b2130; --border: #262e40;
+      --text: #e6e9ef; --muted: #8b93a7; --accent: #6ea8ff; --accent-ink: #0b1220;
+      --danger: #ef6b6b; --radius: 10px;
+      color-scheme: dark;
+    }
+    * { box-sizing: border-box; }
+    [hidden] { display: none !important; }
+    body { margin: 0; background: var(--bg); color: var(--text); font: 14px/1.4 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+    .topbar {
+      display: flex; align-items: baseline; justify-content: space-between; gap: 12px; flex-wrap: wrap;
+      padding: 12px 16px; border-bottom: 1px solid var(--border); background: var(--surface);
+    }
+    h1 { font-size: 16px; margin: 0; letter-spacing: 0.02em; }
+    .muted { color: var(--muted); font-size: 12px; }
+    .chips { display: flex; gap: 6px; flex-wrap: wrap; padding: 12px 16px 0; max-width: 1600px; margin: 0 auto; }
+    .status { padding: 8px 16px; max-width: 1600px; margin: 0 auto; color: var(--muted); }
+    .status.err { color: var(--danger); }
+    .grid {
+      display: grid; grid-template-columns: repeat(auto-fill, minmax(170px, 1fr)); gap: 12px;
+      padding: 8px 16px 24px; max-width: 1600px; margin: 0 auto;
+    }
+    .item {
+      display: flex; flex-direction: column; background: var(--surface); border: 1px solid var(--border);
+      border-radius: var(--radius); overflow: hidden; color: var(--text); text-decoration: none;
+    }
+    .item:hover { border-color: var(--accent); }
+    .thumb { aspect-ratio: 4 / 3; background: var(--surface-2); overflow: hidden; }
+    .thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+    /* Press and hold shows the infobox, so no callout/selection on thumbnails. */
+    .thumb, .thumb img { -webkit-touch-callout: none; -webkit-user-select: none; user-select: none; -webkit-user-drag: none; }
+    .meta { padding: 8px 10px; }
+    .object { font-size: 14px; font-weight: 600; word-break: break-word; }
+    .name { font-size: 13px; word-break: break-word; }
+    .sub { color: var(--muted); font-size: 11px; margin-top: 3px; font-variant-numeric: tabular-nums; }
+    .badge { display: inline-block; padding: 0 6px; border-radius: 999px; font-size: 11px; border: 1px solid var(--accent); color: var(--accent); margin-right: 4px; }
+    a.btn {
+      display: inline-flex; align-items: center; padding: 6px 12px; border-radius: 8px; border: 1px solid var(--border);
+      background: var(--surface-2); color: var(--text); text-decoration: none; font-size: 13px; cursor: pointer;
+    }
+    a.btn:hover { border-color: var(--accent); }
+    a.btn.active { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); font-weight: 600; }
+    .viewer {
+      position: fixed; inset: 0; background: rgba(0, 0, 0, 0.92); z-index: 50; display: none;
+      flex-direction: column; align-items: center; justify-content: center; gap: 10px; padding: 16px;
+    }
+    .viewer.open { display: flex; }
+    .viewer img { max-width: 100%; max-height: calc(100vh - 130px); object-fit: contain; }
+    .viewer .cap { color: var(--muted); font-size: 12px; text-align: center; word-break: break-word; max-width: 900px; }
+    .viewer .cap b { color: var(--text); font-size: 14px; }
+    .viewer .bar { display: flex; gap: 8px; flex-wrap: wrap; justify-content: center; }
+    /* Hovering a thumbnail for 3 s: an infobox about the object (index.json "objects"). */
+    .info {
+      position: fixed; z-index: 40; width: 310px; max-height: calc(100vh - 16px); overflow: hidden; pointer-events: none;
+      background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.55); padding: 12px 14px; font-size: 12px;
+    }
+    .info h2 { font-size: 15px; margin: 0; text-align: center; }
+    .info .desc { color: var(--muted); text-align: center; margin: 2px 0 8px; }
+    .info table { width: 100%; border-collapse: collapse; }
+    .info th { text-align: left; color: var(--muted); font-weight: normal; padding: 3px 10px 3px 0; vertical-align: top; white-space: nowrap; }
+    .info td { padding: 3px 0; font-variant-numeric: tabular-nums; }
+    .info tr + tr th, .info tr + tr td { border-top: 1px solid var(--border); }
+    .info p { margin: 8px 0 0; line-height: 1.45; display: -webkit-box; -webkit-line-clamp: 7; -webkit-box-orient: vertical; overflow: hidden; }
+    .info .src { color: var(--muted); font-size: 11px; margin-top: 8px; }
+    /* The same panel under the picture in the viewer (About). */
+    .viewer .info { position: static; width: min(560px, 100%); max-height: 38vh; overflow-y: auto; pointer-events: auto; box-shadow: none; scrollbar-color: var(--border) transparent; }
+    .viewer .info p { -webkit-line-clamp: unset; display: block; }
+    .viewer.about img { max-height: calc(100vh - 130px - 38vh); }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <h1 id="title">Astrophotos</h1>
+    <span class="muted" id="updated"></span>
+  </header>
+  <nav class="chips" id="tabs"></nav>
+  <nav class="chips" id="chips"></nav>
+  <div class="status" id="status">Loading…</div>
+  <main class="grid" id="grid"></main>
+
+  <div class="info" id="info" hidden></div>
+
+  <div class="viewer" id="viewer">
+    <img id="v-img" alt="">
+    <div class="info" id="v-info" hidden></div>
+    <div class="cap" id="v-cap"></div>
+    <div class="bar">
+      <a class="btn" id="v-prev">‹ Previous</a>
+      <a class="btn" id="v-dl">Download</a>
+      <a class="btn" id="v-about">About</a>
+      <a class="btn" id="v-next">Next ›</a>
+      <a class="btn" id="v-close">Close</a>
+    </div>
+  </div>
+
+<script>
+  // index.json (written by share.py): {title, updated, items: [...], recent:
+  // [...]}, each entry {id, kind: "scope"|"enhanced"|"recent", object, name,
+  // size, taken, frames, exposure, filter, steps, image, thumb}. "items" are
+  // pictures shared by hand; "recent" mirrors the telescope's newest stacks.
+  // #<id> opens one picture, so it can be linked.
+  const $ = (id) => document.getElementById(id);
+  const el = (tag, cls, text) => { const e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; };
+  const fmtSize = (n) => n >= 1e6 ? (n / 1e6).toFixed(1) + " MB" : (n / 1e3).toFixed(0) + " kB";
+  const fmtDate = (t) => new Date(t * 1000).toLocaleString(undefined,
+    { year: "numeric", month: "short", day: "numeric", hour: "2-digit", minute: "2-digit" });
+  const fmtDur = (s) => s >= 3600 ? `${Math.floor(s / 3600)} h ${Math.round(s % 3600 / 60)} min`
+    : s >= 60 ? `${Math.floor(s / 60)} min` + (s % 60 ? ` ${Math.round(s % 60)} s` : "") : `${s} s`;
+  // "15 × 10 s (3 min) · IRCUT", from the S50's file name.
+  const exposure = (i) => i.frames ? `${i.frames} × ${i.exposure} s (${fmtDur(i.frames * i.exposure)})` : null;
+  const when = (i) => i.taken || i.shared;
+
+  const TABS = { shared: "Shared", recent: "Recent" };
+  let lists = { shared: [], recent: [] }, mode = "shared", items = [], shown = [], filter = "", current = -1;
+  let objects = {}, infoTimer = null;
+
+  async function load() {
+    try {
+      const r = await fetch("index.json", { cache: "no-cache" });
+      if (!r.ok) throw new Error(r.status === 404 ? "nothing shared yet" : "HTTP " + r.status);
+      const doc = await r.json();
+      document.title = doc.title || "Astrophotos";
+      $("title").textContent = document.title;
+      if (doc.updated) $("updated").textContent = "Updated " + fmtDate(doc.updated);
+      lists = { shared: doc.items.slice().sort((a, b) => when(b) - when(a)), recent: doc.recent || [] };
+      objects = doc.objects || {};
+      setMode(lists.shared.length || !lists.recent.length ? "shared" : "recent");
+      openFromHash();
+    } catch (e) {
+      $("status").className = "status err"; $("status").textContent = "Couldn't load the pictures: " + e.message;
+    }
+  }
+
+  function setMode(m) {
+    mode = m; items = lists[m]; filter = "";
+    const nav = $("tabs"); nav.replaceChildren();
+    if (lists.recent.length) {  // tabs only once there's a Recent to show
+      for (const [k, label] of Object.entries(TABS)) {
+        const a = el("a", "btn" + (k === mode ? " active" : ""), `${label} (${lists[k].length})`);
+        a.onclick = () => setMode(k);
+        nav.append(a);
+      }
+    }
+    chips(); render();
+  }
+
+  function chips() {
+    const objects = [...new Set(items.map((i) => i.object).filter(Boolean))].sort();
+    const nav = $("chips"); nav.replaceChildren();
+    if (objects.length < 2) return;
+    for (const o of ["", ...objects]) {
+      const a = el("a", "btn" + (o === filter ? " active" : ""), o || "All");
+      a.onclick = () => { filter = o; chips(); render(); };
+      nav.append(a);
+    }
+  }
+
+  function render() {
+    shown = filter ? items.filter((i) => i.object === filter) : items;
+    $("status").textContent = !shown.length ? (mode === "recent" ? "No recent pictures." : "Nothing shared yet.")
+      : `${shown.length} ${mode === "recent" ? "newest picture" + (shown.length === 1 ? "" : "s") + " from the telescope"
+        : "picture" + (shown.length === 1 ? "" : "s")}, newest first`;
+    const grid = $("grid"); grid.replaceChildren();
+    shown.forEach((i, n) => {
+      const a = el("a", "item"); a.href = "#" + i.id;
+      const t = el("div", "thumb"); const img = el("img"); img.loading = "lazy"; img.alt = i.object || i.name; img.src = i.thumb; t.append(img);
+      const m = el("div", "meta");
+      m.append(el("div", "object", i.object || i.name));
+      const line = el("div", "name");
+      if (i.kind === "enhanced") line.append(el("span", "badge", "Enhanced"));
+      line.append(document.createTextNode([exposure(i), i.filter].filter(Boolean).join(" · ")));
+      m.append(line, el("div", "sub", fmtDate(when(i))));
+      a.append(t, m);
+      if (objects[i.object]) {
+        if (canHover) {
+          t.onmouseenter = () => { clearTimeout(infoTimer); infoTimer = setTimeout(() => showInfo(objects[i.object], a), 3000); };
+          t.onmouseleave = hideInfo;
+        }
+        holdForInfo(t, a, objects[i.object]);
+      }
+      grid.append(a);
+    });
+  }
+
+  // The infobox: like Wikipedia's panel for the object, beside the card.
+  const canHover = matchMedia("(hover: hover)").matches;
+  function fillInfo(box, o) {
+    box.replaceChildren();
+    box.append(el("h2", null, o.title));
+    const type = (o.facts.find(([k]) => k === "Type") || [])[1] || "";
+    if (o.description && o.description.toLowerCase() !== type.toLowerCase())  // not just the type again
+      box.append(el("div", "desc", o.description[0].toUpperCase() + o.description.slice(1)));
+    const table = el("table");
+    for (const [k, v] of o.facts) { const tr = el("tr"); tr.append(el("th", null, k), el("td", null, v)); table.append(tr); }
+    box.append(table);
+    if (o.extract) box.append(el("p", null, o.extract));
+    box.append(el("div", "src", o.url ? "From Wikipedia (CC BY-SA), Wikidata and SIMBAD" : "From SIMBAD"));
+  }
+  function showInfo(o, card) {
+    const box = $("info"); fillInfo(box, o);
+    box.style.width = innerWidth < 600 ? `${innerWidth - 32}px` : "";  // a phone: full width, 16 px margins
+    box.hidden = false;
+    const r = card.getBoundingClientRect(), w = box.offsetWidth, h = box.offsetHeight;
+    let left = r.right + 10;
+    if (left + w > innerWidth - 8) left = r.left - w - 10;  // no room on the right: the left
+    if (left < 8) left = Math.max(innerWidth < 600 ? 16 : 8, Math.min(innerWidth - w - 8, r.left));  // nor there: over the card
+    box.style.left = left + "px";
+    box.style.top = Math.max(8, Math.min(innerHeight - h - 8, r.top)) + "px";
+  }
+  function hideInfo() { clearTimeout(infoTimer); $("info").hidden = true; }
+
+  // Touch: press and hold a thumbnail (~0.5 s) for the infobox; lifting the
+  // finger closes it. Moving first (scrolling) cancels, and a hold doesn't
+  // also open the picture.
+  function holdForInfo(t, card, o) {
+    let x0 = 0, y0 = 0, held = false;
+    t.addEventListener("touchstart", (e) => {
+      const p = e.touches[0]; x0 = p.clientX; y0 = p.clientY; held = false;
+      clearTimeout(infoTimer);
+      infoTimer = setTimeout(() => { held = true; showInfo(o, card); }, 500);
+    }, { passive: true });
+    t.addEventListener("touchmove", (e) => {
+      const p = e.touches[0];
+      if (Math.hypot(p.clientX - x0, p.clientY - y0) > 10) hideInfo();
+    }, { passive: true });
+    t.addEventListener("touchend", (e) => { if (held) e.preventDefault(); hideInfo(); });
+    t.addEventListener("touchcancel", hideInfo);
+    t.addEventListener("contextmenu", (e) => e.preventDefault());  // Android's long-press menu
+  }
+
+  // Viewer: About shows the panel under the picture (any device).
+  function setAbout(on) {
+    const o = current >= 0 && objects[shown[current].object];
+    on = on && !!o;
+    if (on) fillInfo($("v-info"), o);
+    $("v-info").hidden = !on;
+    $("viewer").classList.toggle("about", on);
+    $("v-about").textContent = on ? "Hide about" : "About";
+  }
+  $("v-about").onclick = () => setAbout($("v-info").hidden);
+  addEventListener("scroll", hideInfo, { passive: true });
+
+  function open(n) {
+    hideInfo();
+    if (n < 0 || n >= shown.length) return;
+    current = n;
+    const i = shown[n];
+    $("v-img").src = i.image; $("v-img").alt = i.object || i.name;
+    const cap = $("v-cap"); cap.replaceChildren(el("b", null, i.object || i.name), el("br"));
+    cap.append([i.kind === "enhanced" ? "Enhanced: " + (i.steps.join(", ") || "stretch") : null,
+      exposure(i), i.filter, fmtDate(when(i)), fmtSize(i.size)].filter(Boolean).join(" · "));
+    cap.append(el("br"), i.name);
+    const day = new Date(when(i) * 1000).toISOString().slice(0, 10);
+    $("v-dl").href = i.image;
+    $("v-dl").download = `${i.object || i.name} ${day}${i.kind === "enhanced" ? " enhanced" : ""}.jpg`;
+    $("v-prev").hidden = n === 0; $("v-next").hidden = n === shown.length - 1;
+    $("v-about").hidden = !objects[i.object];
+    setAbout(!$("v-info").hidden);  // stays open (with the new object's facts) going prev/next
+    $("viewer").classList.add("open");
+  }
+  function close() {
+    $("viewer").classList.remove("open"); $("v-img").removeAttribute("src"); current = -1; setAbout(false);
+    if (location.hash) history.replaceState(null, "", location.pathname + location.search);
+  }
+  // Cards link to #<id>; the viewer follows the hash (and the back button).
+  function openFromHash() {
+    const id = location.hash.slice(1);
+    if (!id) { if (current >= 0) close(); return; }
+    let n = shown.findIndex((i) => i.id === id);
+    if (n < 0) {  // in the other tab, or hidden by the filter
+      const other = Object.keys(lists).find((k) => lists[k].some((i) => i.id === id));
+      if (other) { setMode(other); n = shown.findIndex((i) => i.id === id); }
+    }
+    if (n >= 0) open(n);
+  }
+  const go = (d) => { if (shown[current + d]) location.replace("#" + shown[current + d].id); };
+  window.addEventListener("hashchange", openFromHash);
+  $("v-prev").onclick = () => go(-1);
+  $("v-next").onclick = () => go(1);
+  $("v-close").onclick = close;
+  $("viewer").onclick = (e) => { if (e.target === $("viewer")) close(); };
+  document.addEventListener("keydown", (e) => {
+    if (current < 0) return;
+    if (e.key === "Escape") close();
+    else if (e.key === "ArrowLeft") go(-1);
+    else if (e.key === "ArrowRight") go(1);
+  });
+  load();
+</script>
+</body>
+</html>
