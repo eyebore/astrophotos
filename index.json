@@ -1,0 +1,2366 @@
+{
+ "title": "Astrophotos",
+ "updated": 1792608224,
+ "items": [
+  {
+   "id": "d59c70b0e71a",
+   "kind": "enhanced",
+   "src": "fe23e56d67dd",
+   "name": "Stacked_15_M27 Dumbbell Nebula_10.0s_IRCUT_20261018-001812",
+   "object": "M27 Dumbbell Nebula",
+   "size": 2378513,
+   "steps": [
+    "Remove background",
+    "AI denoise 0.6",
+    "Sharpen 0.5"
+   ],
+   "frames": 15,
+   "exposure": 10.0,
+   "filter": "IRCUT",
+   "taken": 1792275492,
+   "image": "img/d59c70b0e71a.jpg",
+   "thumb": "img/d59c70b0e71a_thn.jpg",
+   "shared": 1792437561
+  },
+  {
+   "id": "2bc38ea33330",
+   "kind": "scope",
+   "src": "MyWorks/M33 Triangulum Galaxy/Stacked_32_M33 Triangulum Galaxy_10.0s_IRCUT_20261018-000515.jpg",
+   "name": "Stacked_32_M33 Triangulum Galaxy_10.0s_IRCUT_20261018-000515",
+   "object": "M33 Triangulum Galaxy",
+   "size": 1927504,
+   "frames": 32,
+   "exposure": 10.0,
+   "filter": "IRCUT",
+   "taken": 1792274715,
+   "image": "img/2bc38ea33330.jpg",
+   "thumb": "img/2bc38ea33330_thn.jpg",
+   "shared": 1792437857
+  },
+  {
+   "id": "1c096ce76943",
+   "kind": "scope",
+   "src": "MyWorks/M45 Pleiades/Stacked_35_M45 Pleiades_10.0s_IRCUT_20261017-233418.jpg",
+   "name": "Stacked_35_M45 Pleiades_10.0s_IRCUT_20261017-233418",
+   "object": "M45 Pleiades",
+   "size": 1924638,
+   "frames": 35,
+   "exposure": 10.0,
+   "filter": "IRCUT",
+   "taken": 1792272858,
+   "image": "img/1c096ce76943.jpg",
+   "thumb": "img/1c096ce76943_thn.jpg",
+   "shared": 1792437966
+  },
+  {
+   "id": "bd698b5fbb43",
+   "kind": "scope",
+   "src": "MyWorks/NGC 2175/Stacked_70_NGC 2175_10.0s_LP_20261017-070200.jpg",
+   "name": "Stacked_70_NGC 2175_10.0s_LP_20261017-070200",
+   "object": "NGC 2175",
+   "size": 2168879,
+   "frames": 70,
+   "exposure": 10.0,
+   "filter": "LP",
+   "taken": 1792213320,
+   "image": "img/bd698b5fbb43.jpg",
+   "thumb": "img/bd698b5fbb43_thn.jpg",
+   "shared": 1792438101
+  },
+  {
+   "id": "fe9d44467c1c",
+   "kind": "scope",
+   "src": "MyWorks/IC 434/Stacked_322_IC 434_10.0s_LP_20241128-225318.jpg",
+   "name": "Stacked_322_IC 434_10.0s_LP_20241128-225318",
+   "object": "IC 434",
+   "size": 466974,
+   "frames": 322,
+   "exposure": 10.0,
+   "filter": "LP",
+   "taken": 1732830798,
+   "image": "img/fe9d44467c1c.jpg",
+   "thumb": "img/fe9d44467c1c_thn.jpg",
+   "thumb_size": 17448,
+   "shared": 1792439544
+  },
+  {
+   "id": "47b2186e8fe1",
+   "kind": "scope",
+   "src": "MyWorks/M 42/Stacked_132_M 42_10.0s_LP_20241215-001805.jpg",
+   "name": "Stacked_132_M 42_10.0s_LP_20241215-001805",
+   "object": "M 42",
+   "size": 174149,
+   "frames": 132,
+   "exposure": 10.0,
+   "filter": "LP",
+   "taken": 1734218285,
+   "image": "img/47b2186e8fe1.jpg",
+   "thumb": "img/47b2186e8fe1_thn.jpg",
+   "thumb_size": 8754,
+   "shared": 1792439669
+  },
+  {
+   "id": "7adb02a356db",
+   "kind": "scope",
+   "src": "MyWorks/M 42/Stacked_50_M 42_10.0s_LP_20260218-215318.jpg",
+   "name": "Stacked_50_M 42_10.0s_LP_20260218-215318",
+   "object": "M 42",
+   "size": 1214418,
+   "frames": 50,
+   "exposure": 10.0,
+   "filter": "LP",
+   "taken": 1771447998,
+   "image": "img/7adb02a356db.jpg",
+   "thumb": "img/7adb02a356db_thn.jpg",
+   "thumb_size": 15377,
+   "shared": 1792439683
+  },
+  {
+   "id": "13d9b874e067",
+   "kind": "scope",
+   "src": "MyWorks/M 42/Stacked_34_M 42_10.0s_LP_20251113-221153.jpg",
+   "name": "Stacked_34_M 42_10.0s_LP_20251113-221153",
+   "object": "M 42",
+   "size": 1713455,
+   "frames": 34,
+   "exposure": 10.0,
+   "filter": "LP",
+   "taken": 1763068313,
+   "image": "img/13d9b874e067.jpg",
+   "thumb": "img/13d9b874e067_thn.jpg",
+   "thumb_size": 19851,
+   "shared": 1792439701
+  },
+  {
+   "id": "58a1a9f3bd93",
+   "kind": "scope",
+   "src": "MyWorks/M 101/Stacked_327_M 101_10.0s_IRCUT_20260501-003316.jpg",
+   "name": "Stacked_327_M 101_10.0s_IRCUT_20260501-003316",
+   "object": "M 101",
+   "size": 2146319,
+   "frames": 327,
+   "exposure": 10.0,
+   "filter": "IRCUT",
+   "taken": 1777588396,
+   "image": "img/58a1a9f3bd93.jpg",
+   "thumb": "img/58a1a9f3bd93_thn.jpg",
+   "thumb_size": 23568,
+   "shared": 1792439768
+  },
+  {
+   "id": "b3ed9eb3232b",
+   "kind": "scope",
+   "src": "MyWorks/NGC 7000/Stacked_177_NGC 7000_10.0s_IRCUT_20241024-202857.jpg",
+   "name": "Stacked_177_NGC 7000_10.0s_IRCUT_20241024-202857",
+   "object": "NGC 7000",
+   "size": 413881,
+   "frames": 177,
+   "exposure": 10.0,
+   "filter": "IRCUT",
+   "taken": 1729794537,
+   "image": "img/b3ed9eb3232b.jpg",
+   "thumb": "img/b3ed9eb3232b_thn.jpg",
+   "thumb_size": 22332,
+   "shared": 1792439799
+  },
+  {
+   "id": "3aaedf25634f",
+   "kind": "scope",
+   "src": "MyWorks/Eta Cygni/Stacked_31_Eta Cygni_10.0s_LP_20241022-211011.jpg",
+   "name": "Stacked_31_Eta Cygni_10.0s_LP_20241022-211011",
+   "object": "Eta Cygni",
+   "size": 668866,
+   "frames": 31,
+   "exposure": 10.0,
+   "filter": "LP",
+   "taken": 1729624211,
+   "image": "img/3aaedf25634f.jpg",
+   "thumb": "img/3aaedf25634f_thn.jpg",
+   "thumb_size": 24650,
+   "shared": 1792440457
+  },
+  {
+   "id": "f1bec1b8ec6c",
+   "kind": "enhanced",
+   "src": "d71ce7c1d3f9",
+   "name": "Stacked_125_IC 434_10.0s_LP_20241101-231132",
+   "object": "IC 434",
+   "size": 606694,
+   "steps": [
+    "Remove background",
+    "AI denoise 0.6",
+    "Sharpen 0.5"
+   ],
+   "frames": 125,
+   "exposure": 10.0,
+   "filter": "LP",
+   "taken": 1730499092,
+   "image": "img/f1bec1b8ec6c.jpg",
+   "thumb": "img/f1bec1b8ec6c_thn.jpg",
+   "thumb_size": 24154,
+   "shared": 1792440493
+  },
+  {
+   "id": "b152d46e7872",
+   "kind": "enhanced",
+   "src": "d6b8cee5677f",
+   "name": "Stacked_476_mosaic_M 31_10.0s_IRCUT_20260920-004221",
+   "object": "M 31_mosaic",
+   "size": 2128065,
+   "steps": [
+    "Remove background",
+    "AI denoise 0.6",
+    "Sharpen 0.5"
+   ],
+   "frames": 476,
+   "exposure": 10.0,
+   "filter": "IRCUT",
+   "taken": 1789857741,
+   "image": "img/b152d46e7872.jpg",
+   "thumb": "img/b152d46e7872_thn.jpg",
+   "thumb_size": 32802,
+   "shared": 1792440518
+  },
+  {
+   "id": "a1a1fd337761",
+   "kind": "scope",
+   "src": "MyWorks/NGC 7380/Stacked_375_NGC 7380_10.0s_LP_20250111-203632.jpg",
+   "name": "Stacked_375_NGC 7380_10.0s_LP_20250111-203632",
+   "object": "NGC 7380",
+   "size": 657852,
+   "frames": 375,
+   "exposure": 10.0,
+   "filter": "LP",
+   "taken": 1736624192,
+   "image": "img/a1a1fd337761.jpg",
+   "thumb": "img/a1a1fd337761_thn.jpg",
+   "thumb_size": 27375,
+   "shared": 1792440653
+  },
+  {
+   "id": "adbe59be9a1e",
+   "kind": "scope",
+   "src": "MyWorks/NGC 281W/Stacked_565_NGC 281W_10.0s_LP_20260110-221313.jpg",
+   "name": "Stacked_565_NGC 281W_10.0s_LP_20260110-221313",
+   "object": "NGC 281W",
+   "size": 1555360,
+   "frames": 565,
+   "exposure": 10.0,
+   "filter": "LP",
+   "taken": 1768079593,
+   "image": "img/adbe59be9a1e.jpg",
+   "thumb": "img/adbe59be9a1e_thn.jpg",
+   "thumb_size": 22615,
+   "shared": 1792440740
+  },
+  {
+   "id": "ced1976fb72b",
+   "kind": "scope",
+   "src": "MyWorks/NGC 281W/Stacked_306_NGC 281W_10.0s_LP_20241203-204715.jpg",
+   "name": "Stacked_306_NGC 281W_10.0s_LP_20241203-204715",
+   "object": "NGC 281W",
+   "size": 483937,
+   "frames": 306,
+   "exposure": 10.0,
+   "filter": "LP",
+   "taken": 1733255235,
+   "image": "img/ced1976fb72b.jpg",
+   "thumb": "img/ced1976fb72b_thn.jpg",
+   "thumb_size": 22502,
+   "shared": 1792440757
+  },
+  {
+   "id": "f7aaed9f77c1",
+   "kind": "scope",
+   "src": "MyWorks/NGC 6888/Stacked_187_NGC 6888_10.0s_IRCUT_20261016-222214.jpg",
+   "name": "Stacked_187_NGC 6888_10.0s_IRCUT_20261016-222214",
+   "object": "NGC 6888",
+   "size": 2124682,
+   "frames": 187,
+   "exposure": 10.0,
+   "filter": "IRCUT",
+   "taken": 1792182134,
+   "image": "img/f7aaed9f77c1.jpg",
+   "thumb": "img/f7aaed9f77c1_thn.jpg",
+   "thumb_size": 30448,
+   "shared": 1792440823
+  },
+  {
+   "id": "e027cafac18c",
+   "kind": "scope",
+   "src": "MyWorks/NGC 869/Stacked_32_NGC 869_10.0s_IRCUT_20260110-181426.jpg",
+   "name": "Stacked_32_NGC 869_10.0s_IRCUT_20260110-181426",
+   "object": "NGC 869",
+   "size": 2318236,
+   "frames": 32,
+   "exposure": 10.0,
+   "filter": "IRCUT",
+   "taken": 1768065266,
+   "image": "img/e027cafac18c.jpg",
+   "thumb": "img/e027cafac18c_thn.jpg",
+   "thumb_size": 30793,
+   "shared": 1792440885
+  },
+  {
+   "id": "302be5bb4812",
+   "kind": "scope",
+   "src": "MyWorks/M 15/Stacked_123_M 15_10.0s_IRCUT_20241220-190117.jpg",
+   "name": "Stacked_123_M 15_10.0s_IRCUT_20241220-190117",
+   "object": "M 15",
+   "size": 725459,
+   "frames": 123,
+   "exposure": 10.0,
+   "filter": "IRCUT",
+   "taken": 1734717677,
+   "image": "img/302be5bb4812.jpg",
+   "thumb": "img/302be5bb4812_thn.jpg",
+   "thumb_size": 23934,
+   "shared": 1792440937
+  },
+  {
+   "id": "c4f4ecc91900",
+   "kind": "scope",
+   "src": "MyWorks/M 110/Stacked_40_M 110_10.0s_IRCUT_20241014-205521.jpg",
+   "name": "Stacked_40_M 110_10.0s_IRCUT_20241014-205521",
+   "object": "M 110",
+   "size": 551523,
+   "frames": 40,
+   "exposure": 10.0,
+   "filter": "IRCUT",
+   "taken": 1728932121,
+   "image": "img/c4f4ecc91900.jpg",
+   "thumb": "img/c4f4ecc91900_thn.jpg",
+   "thumb_size": 20859,
+   "shared": 1792440960
+  },
+  {
+   "id": "c6cedbecf06a",
+   "kind": "scope",
+   "src": "MyWorks/M 71/Stacked_76_M 71_10.0s_IRCUT_20260820-005134.jpg",
+   "name": "Stacked_76_M 71_10.0s_IRCUT_20260820-005134",
+   "object": "M 71",
+   "size": 2332568,
+   "frames": 76,
+   "exposure": 10.0,
+   "filter": "IRCUT",
+   "taken": 1787179894,
+   "image": "img/c6cedbecf06a.jpg",
+   "thumb": "img/c6cedbecf06a_thn.jpg",
+   "thumb_size": 30498,
+   "shared": 1792440987
+  },
+  {
+   "id": "ba14fcab1026",
+   "kind": "scope",
+   "src": "MyWorks/M 13/Stacked_233_M 13_10.0s_IRCUT_20260424-022122.jpg",
+   "name": "Stacked_233_M 13_10.0s_IRCUT_20260424-022122",
+   "object": "M 13",
+   "size": 2043186,
+   "frames": 233,
+   "exposure": 10.0,
+   "filter": "IRCUT",
+   "taken": 1776990082,
+   "image": "img/ba14fcab1026.jpg",
+   "thumb": "img/ba14fcab1026_thn.jpg",
+   "thumb_size": 24415,
+   "shared": 1792441148
+  },
+  {
+   "id": "ada4af05235f",
+   "kind": "scope",
+   "src": "MyWorks/M 33/Stacked_113_M 33_10.0s_IRCUT_20241025-234320.jpg",
+   "name": "Stacked_113_M 33_10.0s_IRCUT_20241025-234320",
+   "object": "M 33",
+   "size": 432811,
+   "frames": 113,
+   "exposure": 10.0,
+   "filter": "IRCUT",
+   "taken": 1729892600,
+   "image": "img/ada4af05235f.jpg",
+   "thumb": "img/ada4af05235f_thn.jpg",
+   "thumb_size": 20024,
+   "shared": 1792441190
+  },
+  {
+   "id": "7eadd77bd63a",
+   "kind": "scope",
+   "src": "MyWorks/M 35/Stacked_149_M 35_10.0s_IRCUT_20251227-221820.jpg",
+   "name": "Stacked_149_M 35_10.0s_IRCUT_20251227-221820",
+   "object": "M 35",
+   "size": 2288939,
+   "frames": 149,
+   "exposure": 10.0,
+   "filter": "IRCUT",
+   "taken": 1766870300,
+   "image": "img/7eadd77bd63a.jpg",
+   "thumb": "img/7eadd77bd63a_thn.jpg",
+   "thumb_size": 31257,
+   "shared": 1792441325
+  },
+  {
+   "id": "2e42da381cf2",
+   "kind": "scope",
+   "src": "MyWorks/NGC 6633/Stacked_107_NGC 6633_10.0s_IRCUT_20260820-012619.jpg",
+   "name": "Stacked_107_NGC 6633_10.0s_IRCUT_20260820-012619",
+   "object": "NGC 6633",
+   "size": 2156001,
+   "frames": 107,
+   "exposure": 10.0,
+   "filter": "IRCUT",
+   "taken": 1787181979,
+   "image": "img/2e42da381cf2.jpg",
+   "thumb": "img/2e42da381cf2_thn.jpg",
+   "thumb_size": 26449,
+   "shared": 1792441531
+  },
+  {
+   "id": "1140e2fad290",
+   "kind": "scope",
+   "src": "MyWorks/IC 63/Stacked_108_IC 63_10.0s_IRCUT_20251018-003500.jpg",
+   "name": "Stacked_108_IC 63_10.0s_IRCUT_20251018-003500",
+   "object": "IC 63",
+   "size": 2262321,
+   "frames": 108,
+   "exposure": 10.0,
+   "filter": "IRCUT",
+   "taken": 1760740500,
+   "image": "img/1140e2fad290.jpg",
+   "thumb": "img/1140e2fad290_thn.jpg",
+   "thumb_size": 29152,
+   "shared": 1792608224
+  }
+ ],
+ "recent": [
+  {
+   "id": "d56bc762722c",
+   "kind": "recent",
+   "src": "MyWorks/M27 Dumbbell Nebula/Stacked_15_M27 Dumbbell Nebula_10.0s_IRCUT_20261018-001812.jpg",
+   "name": "Stacked_15_M27 Dumbbell Nebula_10.0s_IRCUT_20261018-001812",
+   "object": "M27 Dumbbell Nebula",
+   "size": 2218535,
+   "frames": 15,
+   "exposure": 10.0,
+   "filter": "IRCUT",
+   "taken": 1792275492,
+   "image": "recent/d56bc762722c.jpg",
+   "thumb": "recent/d56bc762722c_thn.jpg",
+   "thumb_size": 27211
+  },
+  {
+   "id": "2295ff59afe7",
+   "kind": "recent",
+   "src": "MyWorks/M33 Triangulum Galaxy/Stacked_32_M33 Triangulum Galaxy_10.0s_IRCUT_20261018-000515.jpg",
+   "name": "Stacked_32_M33 Triangulum Galaxy_10.0s_IRCUT_20261018-000515",
+   "object": "M33 Triangulum Galaxy",
+   "size": 1927504,
+   "frames": 32,
+   "exposure": 10.0,
+   "filter": "IRCUT",
+   "taken": 1792274715,
+   "image": "recent/2295ff59afe7.jpg",
+   "thumb": "recent/2295ff59afe7_thn.jpg",
+   "thumb_size": 22107
+  },
+  {
+   "id": "68d406259746",
+   "kind": "recent",
+   "src": "MyWorks/M1 Crab Nebula/Stacked_42_M1 Crab Nebula_10.0s_IRCUT_20261017-235145.jpg",
+   "name": "Stacked_42_M1 Crab Nebula_10.0s_IRCUT_20261017-235145",
+   "object": "M1 Crab Nebula",
+   "size": 2349970,
+   "frames": 42,
+   "exposure": 10.0,
+   "filter": "IRCUT",
+   "taken": 1792273905,
+   "image": "recent/68d406259746.jpg",
+   "thumb": "recent/68d406259746_thn.jpg",
+   "thumb_size": 27072
+  },
+  {
+   "id": "fcaee46b09bc",
+   "kind": "recent",
+   "src": "MyWorks/M45 Pleiades/Stacked_35_M45 Pleiades_10.0s_IRCUT_20261017-233418.jpg",
+   "name": "Stacked_35_M45 Pleiades_10.0s_IRCUT_20261017-233418",
+   "object": "M45 Pleiades",
+   "size": 1924638,
+   "frames": 35,
+   "exposure": 10.0,
+   "filter": "IRCUT",
+   "taken": 1792272858,
+   "image": "recent/fcaee46b09bc.jpg",
+   "thumb": "recent/fcaee46b09bc_thn.jpg",
+   "thumb_size": 23537
+  },
+  {
+   "id": "1432d72665fc",
+   "kind": "recent",
+   "src": "MyWorks/HIP 97420/Stacked_5_HIP 97420_10.0s_LP_20261017-231924.jpg",
+   "name": "Stacked_5_HIP 97420_10.0s_LP_20261017-231924",
+   "object": "HIP 97420",
+   "size": 2278361,
+   "frames": 5,
+   "exposure": 10.0,
+   "filter": "LP",
+   "taken": 1792271964,
+   "image": "recent/1432d72665fc.jpg",
+   "thumb": "recent/1432d72665fc_thn.jpg",
+   "thumb_size": 24484
+  },
+  {
+   "id": "231d4d917a07",
+   "kind": "recent",
+   "src": "MyWorks/HIP 97420/Stacked_27_HIP 97420_10.0s_IRCUT_20261017-231645.jpg",
+   "name": "Stacked_27_HIP 97420_10.0s_IRCUT_20261017-231645",
+   "object": "HIP 97420",
+   "size": 2269002,
+   "frames": 27,
+   "exposure": 10.0,
+   "filter": "IRCUT",
+   "taken": 1792271805,
+   "image": "recent/231d4d917a07.jpg",
+   "thumb": "recent/231d4d917a07_thn.jpg",
+   "thumb_size": 29989
+  },
+  {
+   "id": "d08f88998110",
+   "kind": "recent",
+   "src": "MyWorks/68 Cyg/Stacked_68_68 Cyg_10.0s_LP_20261017-230329.jpg",
+   "name": "Stacked_68_68 Cyg_10.0s_LP_20261017-230329",
+   "object": "68 Cyg",
+   "size": 2471125,
+   "frames": 68,
+   "exposure": 10.0,
+   "filter": "LP",
+   "taken": 1792271009,
+   "image": "recent/d08f88998110.jpg",
+   "thumb": "recent/d08f88998110_thn.jpg",
+   "thumb_size": 28275
+  },
+  {
+   "id": "a1b9c0d35195",
+   "kind": "recent",
+   "src": "MyWorks/57 Cyg/Stacked_41_57 Cyg_10.0s_LP_20261017-222926.jpg",
+   "name": "Stacked_41_57 Cyg_10.0s_LP_20261017-222926",
+   "object": "57 Cyg",
+   "size": 1844407,
+   "frames": 41,
+   "exposure": 10.0,
+   "filter": "LP",
+   "taken": 1792268966,
+   "image": "recent/a1b9c0d35195.jpg",
+   "thumb": "recent/a1b9c0d35195_thn.jpg",
+   "thumb_size": 21109
+  },
+  {
+   "id": "f36b3220b4bf",
+   "kind": "recent",
+   "src": "MyWorks/Alpheratz/Stacked_10_Alpheratz_10.0s_IRCUT_20261017-221226.jpg",
+   "name": "Stacked_10_Alpheratz_10.0s_IRCUT_20261017-221226",
+   "object": "Alpheratz",
+   "size": 2137983,
+   "frames": 10,
+   "exposure": 10.0,
+   "filter": "IRCUT",
+   "taken": 1792267946,
+   "image": "recent/f36b3220b4bf.jpg",
+   "thumb": "recent/f36b3220b4bf_thn.jpg",
+   "thumb_size": 23372
+  },
+  {
+   "id": "fff2c95a254e",
+   "kind": "recent",
+   "src": "MyWorks/HD 5842B/Stacked_34_HD 5842B_10.0s_IRCUT_20261017-220518.jpg",
+   "name": "Stacked_34_HD 5842B_10.0s_IRCUT_20261017-220518",
+   "object": "HD 5842B",
+   "size": 2246418,
+   "frames": 34,
+   "exposure": 10.0,
+   "filter": "IRCUT",
+   "taken": 1792267518,
+   "image": "recent/fff2c95a254e.jpg",
+   "thumb": "recent/fff2c95a254e_thn.jpg",
+   "thumb_size": 26891
+  },
+  {
+   "id": "3ad6c1ecf994",
+   "kind": "recent",
+   "src": "MyWorks/Mirach/Stacked_29_Mirach_10.0s_IRCUT_20261017-214747.jpg",
+   "name": "Stacked_29_Mirach_10.0s_IRCUT_20261017-214747",
+   "object": "Mirach",
+   "size": 2067777,
+   "frames": 29,
+   "exposure": 10.0,
+   "filter": "IRCUT",
+   "taken": 1792266467,
+   "image": "recent/3ad6c1ecf994.jpg",
+   "thumb": "recent/3ad6c1ecf994_thn.jpg",
+   "thumb_size": 23308
+  },
+  {
+   "id": "6b3f7803d3ee",
+   "kind": "recent",
+   "src": "MyWorks/35 And/Stacked_62_35 And_10.0s_IRCUT_20261017-213625.jpg",
+   "name": "Stacked_62_35 And_10.0s_IRCUT_20261017-213625",
+   "object": "35 And",
+   "size": 2199124,
+   "frames": 62,
+   "exposure": 10.0,
+   "filter": "IRCUT",
+   "taken": 1792265785,
+   "image": "recent/6b3f7803d3ee.jpg",
+   "thumb": "recent/6b3f7803d3ee_thn.jpg",
+   "thumb_size": 25685
+  },
+  {
+   "id": "8e008f185dc9",
+   "kind": "recent",
+   "src": "MyWorks/M31/Stacked_35_M31_10.0s_IRCUT_20261017-211014.jpg",
+   "name": "Stacked_35_M31_10.0s_IRCUT_20261017-211014",
+   "object": "M31",
+   "size": 1424157,
+   "frames": 35,
+   "exposure": 10.0,
+   "filter": "IRCUT",
+   "taken": 1792264214,
+   "image": "recent/8e008f185dc9.jpg",
+   "thumb": "recent/8e008f185dc9_thn.jpg",
+   "thumb_size": 17674
+  },
+  {
+   "id": "a98cff18449b",
+   "kind": "recent",
+   "src": "MyWorks/INDI target/Stacked_79_INDI target_10.0s_IRCUT_20261017-205607.jpg",
+   "name": "Stacked_79_INDI target_10.0s_IRCUT_20261017-205607",
+   "object": "INDI target",
+   "size": 2128477,
+   "frames": 79,
+   "exposure": 10.0,
+   "filter": "IRCUT",
+   "taken": 1792263367,
+   "image": "recent/a98cff18449b.jpg",
+   "thumb": "recent/a98cff18449b_thn.jpg",
+   "thumb_size": 26271
+  },
+  {
+   "id": "6a4ded2c34d0",
+   "kind": "recent",
+   "src": "MyWorks/61 And/Stacked_39_61 And_10.0s_IRCUT_20261017-201329.jpg",
+   "name": "Stacked_39_61 And_10.0s_IRCUT_20261017-201329",
+   "object": "61 And",
+   "size": 2323465,
+   "frames": 39,
+   "exposure": 10.0,
+   "filter": "IRCUT",
+   "taken": 1792260809,
+   "image": "recent/6a4ded2c34d0.jpg",
+   "thumb": "recent/6a4ded2c34d0_thn.jpg",
+   "thumb_size": 30442
+  },
+  {
+   "id": "e881c3739b4b",
+   "kind": "recent",
+   "src": "MyWorks/M 31/Stacked_24_M 31_10.0s_IRCUT_20261017-195845.jpg",
+   "name": "Stacked_24_M 31_10.0s_IRCUT_20261017-195845",
+   "object": "M 31",
+   "size": 1652653,
+   "frames": 24,
+   "exposure": 10.0,
+   "filter": "IRCUT",
+   "taken": 1792259925,
+   "image": "recent/e881c3739b4b.jpg",
+   "thumb": "recent/e881c3739b4b_thn.jpg",
+   "thumb_size": 19655
+  },
+  {
+   "id": "b3613089d4c4",
+   "kind": "recent",
+   "src": "MyWorks/M 31/Stacked_8_M 31_10.0s_IRCUT_20261017-194442.jpg",
+   "name": "Stacked_8_M 31_10.0s_IRCUT_20261017-194442",
+   "object": "M 31",
+   "size": 1912242,
+   "frames": 8,
+   "exposure": 10.0,
+   "filter": "IRCUT",
+   "taken": 1792259082,
+   "image": "recent/b3613089d4c4.jpg",
+   "thumb": "recent/b3613089d4c4_thn.jpg",
+   "thumb_size": 21363
+  },
+  {
+   "id": "76a20c6db0e5",
+   "kind": "recent",
+   "src": "MyWorks/NGC 2175/Stacked_70_NGC 2175_10.0s_LP_20261017-070200.jpg",
+   "name": "Stacked_70_NGC 2175_10.0s_LP_20261017-070200",
+   "object": "NGC 2175",
+   "size": 2168879,
+   "frames": 70,
+   "exposure": 10.0,
+   "filter": "LP",
+   "taken": 1792213320,
+   "image": "recent/76a20c6db0e5.jpg",
+   "thumb": "recent/76a20c6db0e5_thn.jpg",
+   "thumb_size": 23984
+  },
+  {
+   "id": "5d74fadd2f9c",
+   "kind": "recent",
+   "src": "MyWorks/Betelgeuse/Stacked_60_Betelgeuse_10.0s_LP_20261017-062519.jpg",
+   "name": "Stacked_60_Betelgeuse_10.0s_LP_20261017-062519",
+   "object": "Betelgeuse",
+   "size": 1774846,
+   "frames": 60,
+   "exposure": 10.0,
+   "filter": "LP",
+   "taken": 1792211119,
+   "image": "recent/5d74fadd2f9c.jpg",
+   "thumb": "recent/5d74fadd2f9c_thn.jpg",
+   "thumb_size": 23129
+  },
+  {
+   "id": "88327c904c02",
+   "kind": "recent",
+   "src": "MyWorks/M31 Andromeda Galaxy/Stacked_22_M31 Andromeda Galaxy_10.0s_IRCUT_20261016-231514.jpg",
+   "name": "Stacked_22_M31 Andromeda Galaxy_10.0s_IRCUT_20261016-231514",
+   "object": "M31 Andromeda Galaxy",
+   "size": 1465244,
+   "frames": 22,
+   "exposure": 10.0,
+   "filter": "IRCUT",
+   "taken": 1792185314,
+   "image": "recent/88327c904c02.jpg",
+   "thumb": "recent/88327c904c02_thn.jpg",
+   "thumb_size": 18259
+  },
+  {
+   "id": "a50b4eac507a",
+   "kind": "recent",
+   "src": "MyWorks/19 Cyg/Stacked_61_19 Cyg_10.0s_IRCUT_20261016-230059.jpg",
+   "name": "Stacked_61_19 Cyg_10.0s_IRCUT_20261016-230059",
+   "object": "19 Cyg",
+   "size": 2119094,
+   "frames": 61,
+   "exposure": 10.0,
+   "filter": "IRCUT",
+   "taken": 1792184459,
+   "image": "recent/a50b4eac507a.jpg",
+   "thumb": "recent/a50b4eac507a_thn.jpg",
+   "thumb_size": 30215
+  },
+  {
+   "id": "92c42614811c",
+   "kind": "recent",
+   "src": "MyWorks/NGC 6888/Stacked_187_NGC 6888_10.0s_IRCUT_20261016-222214.jpg",
+   "name": "Stacked_187_NGC 6888_10.0s_IRCUT_20261016-222214",
+   "object": "NGC 6888",
+   "size": 2124682,
+   "frames": 187,
+   "exposure": 10.0,
+   "filter": "IRCUT",
+   "taken": 1792182134,
+   "image": "recent/92c42614811c.jpg",
+   "thumb": "recent/92c42614811c_thn.jpg",
+   "thumb_size": 30448
+  },
+  {
+   "id": "869cb58fc895",
+   "kind": "recent",
+   "src": "MyWorks/NGC 6888/Stacked_4_NGC 6888_10.0s_IRCUT_20261016-203146.jpg",
+   "name": "Stacked_4_NGC 6888_10.0s_IRCUT_20261016-203146",
+   "object": "NGC 6888",
+   "size": 2245047,
+   "frames": 4,
+   "exposure": 10.0,
+   "filter": "IRCUT",
+   "taken": 1792175506,
+   "image": "recent/869cb58fc895.jpg",
+   "thumb": "recent/869cb58fc895_thn.jpg",
+   "thumb_size": 25759
+  },
+  {
+   "id": "2671386803b9",
+   "kind": "recent",
+   "src": "MyWorks/HD226941/Stacked_11_HD226941_10.0s_LP_20261016-202915.jpg",
+   "name": "Stacked_11_HD226941_10.0s_LP_20261016-202915",
+   "object": "HD226941",
+   "size": 2271396,
+   "frames": 11,
+   "exposure": 10.0,
+   "filter": "LP",
+   "taken": 1792175355,
+   "image": "recent/2671386803b9.jpg",
+   "thumb": "recent/2671386803b9_thn.jpg",
+   "thumb_size": 28417
+  },
+  {
+   "id": "960b8c4ac1d4",
+   "kind": "recent",
+   "src": "MyWorks/Vega/Stacked_50_vega_10.0s_IRCUT_20261016-201842.jpg",
+   "name": "Stacked_50_vega_10.0s_IRCUT_20261016-201842",
+   "object": "Vega",
+   "size": 1499524,
+   "frames": 50,
+   "exposure": 10.0,
+   "filter": "IRCUT",
+   "taken": 1792174722,
+   "image": "recent/960b8c4ac1d4.jpg",
+   "thumb": "recent/960b8c4ac1d4_thn.jpg",
+   "thumb_size": 19796
+  },
+  {
+   "id": "c0eb697c13a4",
+   "kind": "recent",
+   "src": "MyWorks/North America Nebula/Stacked_23_North America Nebula_10.0s_LP_20261014-203414.jpg",
+   "name": "Stacked_23_North America Nebula_10.0s_LP_20261014-203414",
+   "object": "North America Nebula",
+   "size": 2109127,
+   "frames": 23,
+   "exposure": 10.0,
+   "filter": "LP",
+   "taken": 1792002854,
+   "image": "recent/c0eb697c13a4.jpg",
+   "thumb": "recent/c0eb697c13a4_thn.jpg",
+   "thumb_size": 24582
+  },
+  {
+   "id": "900852dc029f",
+   "kind": "recent",
+   "src": "MyWorks/Vega/Stacked_28_Vega_10.0s_IRCUT_20261014-200210.jpg",
+   "name": "Stacked_28_Vega_10.0s_IRCUT_20261014-200210",
+   "object": "Vega",
+   "size": 1532590,
+   "frames": 28,
+   "exposure": 10.0,
+   "filter": "IRCUT",
+   "taken": 1792000930,
+   "image": "recent/900852dc029f.jpg",
+   "thumb": "recent/900852dc029f_thn.jpg",
+   "thumb_size": 18801
+  },
+  {
+   "id": "e62916cb02a3",
+   "kind": "recent",
+   "src": "MyWorks/M 31_mosaic/Stacked_476_mosaic_M 31_10.0s_IRCUT_20260920-004221.jpg",
+   "name": "Stacked_476_mosaic_M 31_10.0s_IRCUT_20260920-004221",
+   "object": "M 31_mosaic",
+   "size": 2196901,
+   "frames": 476,
+   "exposure": 10.0,
+   "filter": "IRCUT",
+   "taken": 1789857741,
+   "image": "recent/e62916cb02a3.jpg",
+   "thumb": "recent/e62916cb02a3_thn.jpg",
+   "thumb_size": 24826
+  },
+  {
+   "id": "6778728b2f94",
+   "kind": "recent",
+   "src": "MyWorks/Vega/Stacked_24_Vega_10.0s_IRCUT_20260919-221704.jpg",
+   "name": "Stacked_24_Vega_10.0s_IRCUT_20260919-221704",
+   "object": "Vega",
+   "size": 1766167,
+   "frames": 24,
+   "exposure": 10.0,
+   "filter": "IRCUT",
+   "taken": 1789849024,
+   "image": "recent/6778728b2f94.jpg",
+   "thumb": "recent/6778728b2f94_thn.jpg",
+   "thumb_size": 21876
+  },
+  {
+   "id": "82c6ee740f4b",
+   "kind": "recent",
+   "src": "MyWorks/NGC 6633/Stacked_107_NGC 6633_10.0s_IRCUT_20260820-012619.jpg",
+   "name": "Stacked_107_NGC 6633_10.0s_IRCUT_20260820-012619",
+   "object": "NGC 6633",
+   "size": 2156001,
+   "frames": 107,
+   "exposure": 10.0,
+   "filter": "IRCUT",
+   "taken": 1787181979,
+   "image": "recent/82c6ee740f4b.jpg",
+   "thumb": "recent/82c6ee740f4b_thn.jpg",
+   "thumb_size": 26449
+  }
+ ],
+ "objects": {
+  "19 Cyg": {
+   "facts": [
+    [
+     "Type",
+     "Long-period variable"
+    ],
+    [
+     "Right ascension",
+     "19h 50m 34.0s"
+    ],
+    [
+     "Declination",
+     "+38\u00b0 43\u2032 21\u2033"
+    ],
+    [
+     "Distance",
+     "714 light-years (219 pc)"
+    ],
+    [
+     "Apparent magnitude (V)",
+     "5.12"
+    ],
+    [
+     "Designations",
+     "HIP 97630, HD 187849"
+    ]
+   ],
+   "simbad": "* 19 Cyg",
+   "title": "* 19 Cyg",
+   "description": "long-period variable"
+  },
+  "35 And": {
+   "facts": [
+    [
+     "Type",
+     "Star, spectroscopic binary"
+    ],
+    [
+     "Constellation",
+     "Andromeda"
+    ],
+    [
+     "Right ascension",
+     "0h 49m 48.8s"
+    ],
+    [
+     "Declination",
+     "+41\u00b0 04\u2032 44\u2033"
+    ],
+    [
+     "Distance",
+     "564 light-years (173 pc)"
+    ],
+    [
+     "Apparent magnitude",
+     "4.53"
+    ],
+    [
+     "Designations",
+     "HIP 3881, HD 4727"
+    ]
+   ],
+   "simbad": "* nu. And",
+   "title": "Nu Andromedae",
+   "url": "https://en.wikipedia.org/wiki/Nu_Andromedae",
+   "description": "binary star system in the constellation Andromeda",
+   "extract": "Nu Andromedae is a binary star system in the constellation Andromeda. Its Bayer designation is Latinized from \u03bd Andromedae, and abbreviated Nu And or \u03bd And, respectively. The system has an apparent visual magnitude of 4.5, which is bright enough to be seen with the naked eye."
+  },
+  "57 Cyg": {
+   "facts": [
+    [
+     "Type",
+     "Spectroscopic binary, near-infrared source"
+    ],
+    [
+     "Constellation",
+     "Cygnus"
+    ],
+    [
+     "Right ascension",
+     "20h 53m 14.8s"
+    ],
+    [
+     "Declination",
+     "+44\u00b0 23\u2032 14\u2033"
+    ],
+    [
+     "Distance",
+     "561 light-years (172 pc)"
+    ],
+    [
+     "Apparent magnitude",
+     "4.77"
+    ],
+    [
+     "Designations",
+     "HD 199081, HIP 103089"
+    ]
+   ],
+   "simbad": "* 57 Cyg",
+   "title": "57 Cygni",
+   "url": "https://en.wikipedia.org/wiki/57_Cygni",
+   "description": "binary star system in the constellation Cygnus",
+   "extract": "57 Cygni is a close binary star system in the constellation Cygnus, located about 530 light years from Earth. It is visible to the naked eye as a blue-white hued star with a baseline apparent visual magnitude of 4.80. The pair have a magnitude difference of 0.34."
+  },
+  "61 And": {
+   "facts": [
+    [
+     "Type",
+     "Star, near-infrared source"
+    ],
+    [
+     "Constellation",
+     "Perseus"
+    ],
+    [
+     "Right ascension",
+     "2h 19m 04.5s"
+    ],
+    [
+     "Declination",
+     "+57\u00b0 08\u2032 08\u2033"
+    ],
+    [
+     "Distance",
+     "7,501 light-years (2,300 pc)"
+    ],
+    [
+     "Apparent magnitude",
+     "6.57"
+    ],
+    [
+     "Designations",
+     "HIP 10805, HD 14134"
+    ]
+   ],
+   "simbad": "* 61 And",
+   "title": "V520 Persei",
+   "url": "https://en.wikipedia.org/wiki/V520_Persei",
+   "description": "star in the constellation Perseus",
+   "extract": "V520 Persei is a blue supergiant member of NGC 869, one of the Perseus Double Cluster open clusters. It is an irregular variable star. At a magnitude of about 6.6, V520 Persei is the brightest member in either NGC 869 or NGC 884, although the brighter HD 13994 lies in the foreground along the same line of sight."
+  },
+  "68 Cyg": {
+   "facts": [
+    [
+     "Type",
+     "O-type giant star, near-infrared source"
+    ],
+    [
+     "Constellation",
+     "Cygnus"
+    ],
+    [
+     "Right ascension",
+     "21h 18m 27.2s"
+    ],
+    [
+     "Declination",
+     "+43\u00b0 56\u2032 45\u2033"
+    ],
+    [
+     "Distance",
+     "2,250 light-years (690 pc)"
+    ],
+    [
+     "Apparent magnitude",
+     "5"
+    ],
+    [
+     "Designations",
+     "HD 203064, HIP 105186"
+    ]
+   ],
+   "simbad": "* 68 Cyg",
+   "title": "68 Cygni",
+   "url": "https://en.wikipedia.org/wiki/68_Cygni",
+   "description": "star in the constellation Cygnus",
+   "extract": "68 Cygni is a star in the constellation Cygnus. Located approximately 690 parsecs (2,300 ly) distant, the star is a hot blue giant of spectral type O7.5IIIn((f)), a massive star that is likely currently expanding to become a supergiant. The star is surrounded by a ring-shaped nebula (likely a Str\u00f6mgren sphere) named Sharpless 2-119 (Clamshell nebula)."
+  },
+  "Alpheratz": {
+   "facts": [
+    [
+     "Type",
+     "Spectroscopic binary, variable star"
+    ],
+    [
+     "Constellation",
+     "Andromeda"
+    ],
+    [
+     "Right ascension",
+     "0h 08m 23.3s"
+    ],
+    [
+     "Declination",
+     "+29\u00b0 05\u2032 26\u2033"
+    ],
+    [
+     "Distance",
+     "97 light-years (29.7 pc)"
+    ],
+    [
+     "Apparent magnitude",
+     "2.06"
+    ],
+    [
+     "Designations",
+     "HIP 677, HD 358"
+    ]
+   ],
+   "simbad": "* alf And",
+   "title": "Alpheratz",
+   "url": "https://en.wikipedia.org/wiki/Alpheratz",
+   "description": "star in the constellation of Andromeda",
+   "extract": "Alpheratz is a prominent star system in the constellation of Andromeda. Pronounced , it has the Bayer designation Alpha Andromedae, Latinised from \u03b1 Andromedae, and abbreviated Alpha And or \u03b1 And, respectively. Alpheratz is the brightest star in the constellation when Mirach (\u03b2 Andromedae) undergoes its periodical dimming."
+  },
+  "Betelgeuse": {
+   "facts": [
+    [
+     "Type",
+     "Red supergiant, long-period variable star"
+    ],
+    [
+     "Constellation",
+     "Orion"
+    ],
+    [
+     "Right ascension",
+     "5h 55m 10.3s"
+    ],
+    [
+     "Declination",
+     "+7\u00b0 24\u2032 25\u2033"
+    ],
+    [
+     "Distance",
+     "548 light-years (168 pc)"
+    ],
+    [
+     "Apparent magnitude",
+     "0.42"
+    ],
+    [
+     "Designations",
+     "HIP 27989, HD 39801"
+    ]
+   ],
+   "simbad": "* alf Ori",
+   "title": "Betelgeuse",
+   "url": "https://en.wikipedia.org/wiki/Betelgeuse",
+   "description": "red supergiant star in the constellation of Orion",
+   "extract": "Betelgeuse is a red supergiant star in the equatorial constellation of Orion. It is usually the tenth-brightest star in the night sky and, after Rigel, the second brightest in its constellation. It is a distinctly reddish, semiregular variable star whose apparent magnitude, varying between +0.0 and +1.6, with a main period near 400 days, has the widest range displayed by any first-magnitude star."
+  },
+  "Eta Cygni": {
+   "facts": [
+    [
+     "Type",
+     "Infrared source, variable star"
+    ],
+    [
+     "Constellation",
+     "Cygnus"
+    ],
+    [
+     "Right ascension",
+     "19h 56m 18.4s"
+    ],
+    [
+     "Declination",
+     "+35\u00b0 05\u2032 00\u2033"
+    ],
+    [
+     "Distance",
+     "139 light-years (42.5 pc)"
+    ],
+    [
+     "Apparent magnitude",
+     "3.88"
+    ],
+    [
+     "Designations",
+     "HIP 98110, HD 188947"
+    ]
+   ],
+   "simbad": "* eta Cyg",
+   "title": "Eta Cygni",
+   "url": "https://en.wikipedia.org/wiki/Eta_Cygni",
+   "description": "star in the constellation Cygnus",
+   "extract": "Eta Cygni is a star in the northern constellation of Cygnus. It has the proper name Almighzal; Eta Cygni is its Bayer designation, which is Latinized from \u03b7 Cygni and abbreviated Eta Cygni or \u03b7 Cyg. This star visible to the naked eye with an apparent visual magnitude of 3.889."
+  },
+  "HD 5842B": {
+   "facts": [
+    [
+     "Type",
+     "Star"
+    ],
+    [
+     "Right ascension",
+     "1h 00m 35.6s"
+    ],
+    [
+     "Declination",
+     "+47\u00b0 19\u2032 15\u2033"
+    ],
+    [
+     "Distance",
+     "755 light-years (231 pc)"
+    ],
+    [
+     "Apparent magnitude (V)",
+     "9.04"
+    ]
+   ],
+   "simbad": "HD 5842B",
+   "title": "HD 5842B",
+   "description": "star"
+  },
+  "HD226941": {
+   "facts": [
+    [
+     "Type",
+     "Star"
+    ],
+    [
+     "Right ascension",
+     "19h 58m 58.8s"
+    ],
+    [
+     "Declination",
+     "+38\u00b0 51\u2032 49\u2033"
+    ],
+    [
+     "Distance",
+     "3,954 light-years (1,212 pc)"
+    ],
+    [
+     "Apparent magnitude (V)",
+     "11.2"
+    ],
+    [
+     "Designations",
+     "HD 226941"
+    ]
+   ],
+   "simbad": "HD 226941",
+   "title": "HD 226941",
+   "description": "star"
+  },
+  "HIP 97420": {
+   "facts": [
+    [
+     "Type",
+     "High proper-motion star"
+    ],
+    [
+     "Right ascension",
+     "19h 48m 00.9s"
+    ],
+    [
+     "Declination",
+     "+27\u00b0 52\u2032 10\u2033"
+    ],
+    [
+     "Distance",
+     "83.2 light-years (25.5 pc)"
+    ],
+    [
+     "Designations",
+     "HIP 97420, HD 187237"
+    ]
+   ],
+   "simbad": "HD 187237",
+   "title": "HD 187237",
+   "description": "high proper-motion star"
+  },
+  "IC 434": {
+   "facts": [
+    [
+     "Type",
+     "H II region"
+    ],
+    [
+     "Constellation",
+     "Orion"
+    ],
+    [
+     "Right ascension",
+     "5h 41m 00.0s"
+    ],
+    [
+     "Declination",
+     "-2\u00b0 30\u2032 00\u2033"
+    ],
+    [
+     "Apparent magnitude",
+     "4.5"
+    ],
+    [
+     "Designations",
+     "IC 434"
+    ]
+   ],
+   "simbad": "IC 434",
+   "title": "IC 434",
+   "url": "https://en.wikipedia.org/wiki/IC_434",
+   "description": "emission nebula in the constellation Orion",
+   "extract": "IC 434 is a bright emission nebula in the equatorial constellation of Orion. It was discovered on February 1, 1786, by German-British astronomer William Herschel. The nebula is located at a distance of approximately 1,260 ly (385 pc) from the Sun and spans the interior of a neutral hydrogen shell with an angular size of 2\u00b0 \u00d7 4\u00b0."
+  },
+  "IC 63": {
+   "facts": [
+    [
+     "Type",
+     "Reflection nebula, H II region"
+    ],
+    [
+     "Constellation",
+     "Cassiopeia"
+    ],
+    [
+     "Right ascension",
+     "0h 59m 01.4s"
+    ],
+    [
+     "Declination",
+     "+60\u00b0 53\u2032 18\u2033"
+    ],
+    [
+     "Distance",
+     "10,535 light-years (3,230 pc)"
+    ],
+    [
+     "Designations",
+     "IC 63"
+    ]
+   ],
+   "simbad": "IC 63",
+   "title": "Sh 2-185",
+   "url": "https://en.wikipedia.org/wiki/Sh_2-185",
+   "description": "h II region in the constellation Cassiopeia",
+   "extract": "Sh 2-185, or LBN 623, is an H II region centered on the massive star system Gamma Cassiopeiae (\u03b3 Cas) in the northern constellation of Cassiopeia. It was included in the second Catalogue of H II Regions, published in 1959 by Stewart Sharpless, and in Lynds' Catalogue of Bright Nebulae. Sh 2-185 is located at a distance of approximately 10,500 ly (3.23 kpc) from the Sun."
+  },
+  "M 101": {
+   "facts": [
+    [
+     "Type",
+     "Interacting galaxy"
+    ],
+    [
+     "Constellation",
+     "Ursa Major"
+    ],
+    [
+     "Right ascension",
+     "14h 03m 12.6s"
+    ],
+    [
+     "Declination",
+     "+54\u00b0 20\u2032 56\u2033"
+    ],
+    [
+     "Distance",
+     "22.7 million light-years (6.95 Mpc)"
+    ],
+    [
+     "Apparent magnitude",
+     "7.9"
+    ],
+    [
+     "Apparent size",
+     "21.9\u2032 \u00d7 20.9\u2032"
+    ],
+    [
+     "Designations",
+     "M101, NGC 5457"
+    ]
+   ],
+   "simbad": "M 101",
+   "title": "Pinwheel Galaxy",
+   "url": "https://en.wikipedia.org/wiki/Pinwheel_Galaxy",
+   "description": "spiral galaxy in the constellation Ursa Major",
+   "extract": "The Pinwheel Galaxy (also known as Messier 101, M101 or NGC 5457) is a face-on, counterclockwise intermediate spiral galaxy located 21 million light-years (6.4 megaparsecs) from Earth in the constellation Ursa Major. It was discovered by Pierre M\u00e9chain in 1781 and was communicated that year to Charles Messier, who verified its position for inclusion in the Messier Catalogue as one of its final entries.\nOn February 28, 2006, NASA and the European Space Agency released a very detailed image of the Pinwheel Galaxy, which was the largest and most detailed image of a galaxy by Hubble Space Telescope at the time."
+  },
+  "M 110": {
+   "facts": [
+    [
+     "Type",
+     "Dwarf elliptical galaxy"
+    ],
+    [
+     "Constellation",
+     "Andromeda"
+    ],
+    [
+     "Right ascension",
+     "0h 40m 22.1s"
+    ],
+    [
+     "Declination",
+     "+41\u00b0 41\u2032 08\u2033"
+    ],
+    [
+     "Distance",
+     "2.9 million light-years (0.889 Mpc)"
+    ],
+    [
+     "Apparent magnitude",
+     "8.5"
+    ],
+    [
+     "Apparent size",
+     "3.33\u2032 \u00d7 2.1\u2032"
+    ],
+    [
+     "Designations",
+     "M110, NGC 205"
+    ]
+   ],
+   "simbad": "M 110",
+   "title": "Messier 110",
+   "url": "https://en.wikipedia.org/wiki/Messier_110",
+   "description": "elliptical galaxy in the constellation Andromeda",
+   "extract": "Messier 110, or M110, also known as NGC 205, is a dwarf elliptical galaxy that is a satellite of the Andromeda Galaxy in the Local Group."
+  },
+  "M 13": {
+   "facts": [
+    [
+     "Type",
+     "Globular cluster"
+    ],
+    [
+     "Constellation",
+     "Hercules"
+    ],
+    [
+     "Right ascension",
+     "16h 41m 41.6s"
+    ],
+    [
+     "Declination",
+     "+36\u00b0 27\u2032 41\u2033"
+    ],
+    [
+     "Distance",
+     "25,000 light-years (7,665 pc)"
+    ],
+    [
+     "Apparent magnitude",
+     "5.8"
+    ],
+    [
+     "Apparent size",
+     "33\u2032"
+    ],
+    [
+     "Designations",
+     "M13, NGC 6205"
+    ]
+   ],
+   "simbad": "M 13",
+   "title": "Messier 13",
+   "url": "https://en.wikipedia.org/wiki/Messier_13",
+   "description": "Inneragual globular cluster",
+   "extract": "Messier 13, or M13 (also designated NGC 6205 and sometimes called the Great Globular Cluster in Hercules, the Hercules Globular Cluster, or the Great Hercules Cluster), is a globular cluster of several hundred thousand stars in the constellation of Hercules."
+  },
+  "M 15": {
+   "facts": [
+    [
+     "Type",
+     "Globular cluster"
+    ],
+    [
+     "Constellation",
+     "Pegasus"
+    ],
+    [
+     "Right ascension",
+     "21h 29m 58.3s"
+    ],
+    [
+     "Declination",
+     "+12\u00b0 10\u2032 01\u2033"
+    ],
+    [
+     "Distance",
+     "33,300 light-years (10,210 pc)"
+    ],
+    [
+     "Apparent magnitude",
+     "6.2"
+    ],
+    [
+     "Apparent size",
+     "12.3\u2032"
+    ],
+    [
+     "Designations",
+     "M15, NGC 7078"
+    ]
+   ],
+   "simbad": "M 15",
+   "title": "Messier 15",
+   "url": "https://en.wikipedia.org/wiki/Messier_15",
+   "description": "Globular cluster",
+   "extract": "Messier 15 or M15 (also designated NGC 7078 and sometimes known as the Great Pegasus Cluster) is a globular cluster in the constellation Pegasus. It was discovered by Jean-Dominique Maraldi in 1746 and included in Charles Messier's catalogue of comet-like objects in 1764.  At an estimated 12.5\u00b11.3 billion years old, it is one of the oldest known globular clusters."
+  },
+  "M 31": {
+   "facts": [
+    [
+     "Type",
+     "Spiral galaxy, galaxy"
+    ],
+    [
+     "Constellation",
+     "Andromeda"
+    ],
+    [
+     "Right ascension",
+     "0h 42m 44.3s"
+    ],
+    [
+     "Declination",
+     "+41\u00b0 16\u2032 08\u2033"
+    ],
+    [
+     "Distance",
+     "2.67 million light-years (0.82 Mpc)"
+    ],
+    [
+     "Apparent magnitude",
+     "3.44"
+    ],
+    [
+     "Apparent size",
+     "200\u2032 \u00d7 70.8\u2032"
+    ],
+    [
+     "Designations",
+     "HD 3969, M31, NGC 224"
+    ]
+   ],
+   "simbad": "M 31",
+   "title": "Andromeda Galaxy",
+   "url": "https://en.wikipedia.org/wiki/Andromeda_Galaxy",
+   "description": "barred spiral galaxy within the Local Group",
+   "extract": "The Andromeda Galaxy is a barred spiral galaxy and is the nearest major galaxy to the Milky Way. It was originally named the Andromeda Nebula and is cataloged as Messier 31, M31, and NGC 224. Andromeda has a D25 isophotal diameter of about 46.56 kiloparsecs (152,000 light-years) and is approximately 765 kpc (2.5 million light-years) from Earth."
+  },
+  "M 31_mosaic": {
+   "facts": [
+    [
+     "Type",
+     "Spiral galaxy, galaxy"
+    ],
+    [
+     "Constellation",
+     "Andromeda"
+    ],
+    [
+     "Right ascension",
+     "0h 42m 44.3s"
+    ],
+    [
+     "Declination",
+     "+41\u00b0 16\u2032 08\u2033"
+    ],
+    [
+     "Distance",
+     "2.67 million light-years (0.82 Mpc)"
+    ],
+    [
+     "Apparent magnitude",
+     "3.44"
+    ],
+    [
+     "Apparent size",
+     "200\u2032 \u00d7 70.8\u2032"
+    ],
+    [
+     "Designations",
+     "HD 3969, M31, NGC 224"
+    ]
+   ],
+   "simbad": "M 31",
+   "title": "Andromeda Galaxy",
+   "url": "https://en.wikipedia.org/wiki/Andromeda_Galaxy",
+   "description": "barred spiral galaxy within the Local Group",
+   "extract": "The Andromeda Galaxy is a barred spiral galaxy and is the nearest major galaxy to the Milky Way. It was originally named the Andromeda Nebula and is cataloged as Messier 31, M31, and NGC 224. Andromeda has a D25 isophotal diameter of about 46.56 kiloparsecs (152,000 light-years) and is approximately 765 kpc (2.5 million light-years) from Earth."
+  },
+  "M 33": {
+   "facts": [
+    [
+     "Type",
+     "Flocculent spiral galaxy, galaxy"
+    ],
+    [
+     "Constellation",
+     "Triangulum"
+    ],
+    [
+     "Right ascension",
+     "1h 33m 50.9s"
+    ],
+    [
+     "Declination",
+     "+30\u00b0 39\u2032 37\u2033"
+    ],
+    [
+     "Distance",
+     "2.61 million light-years (0.8 Mpc)"
+    ],
+    [
+     "Apparent magnitude",
+     "5.72"
+    ],
+    [
+     "Apparent size",
+     "60.3\u2032 \u00d7 35.5\u2032"
+    ],
+    [
+     "Designations",
+     "M33, NGC 598"
+    ]
+   ],
+   "simbad": "M 33",
+   "title": "Triangulum Galaxy",
+   "url": "https://en.wikipedia.org/wiki/Triangulum_Galaxy",
+   "description": "spiral galaxy in the constellation of Triangulum",
+   "extract": "The Triangulum Galaxy is a spiral galaxy  2.878 million light-years (ly) from Earth in the constellation Triangulum. It is catalogued as Messier 33 or NGC 598. With the D25 isophotal diameter of 18.74 kiloparsecs (61,100 light-years), the Triangulum Galaxy is the third-largest member of the Local Group of galaxies, behind the Andromeda Galaxy and the Milky Way."
+  },
+  "M 35": {
+   "facts": [
+    [
+     "Type",
+     "Open cluster"
+    ],
+    [
+     "Constellation",
+     "Gemini"
+    ],
+    [
+     "Right ascension",
+     "6h 09m 05.3s"
+    ],
+    [
+     "Declination",
+     "+24\u00b0 20\u2032 10\u2033"
+    ],
+    [
+     "Distance",
+     "2,800 light-years (858 pc)"
+    ],
+    [
+     "Apparent magnitude",
+     "5.3"
+    ],
+    [
+     "Apparent size",
+     "38.3\u2032"
+    ],
+    [
+     "Designations",
+     "M35, NGC 2168"
+    ]
+   ],
+   "simbad": "NGC 2168",
+   "title": "Messier 35",
+   "url": "https://en.wikipedia.org/wiki/Messier_35",
+   "description": "Open cluster",
+   "extract": "Messier 35 or M35, also known as NGC 2168 or the Shoe-Buckle Cluster, is a relatively close open cluster of stars in the west of Gemini, at about the declination of the Sun when the latter is at June solstice. It was discovered by Philippe Loys de Ch\u00e9seaux around 1745 and independently discovered by John Bevis before 1750. It is scattered over part of the sky almost the size of the full moon and is 2,970 light-years (912 parsecs) away."
+  },
+  "M 42": {
+   "facts": [
+    [
+     "Type",
+     "H II region, astronomical radio source"
+    ],
+    [
+     "Constellation",
+     "Orion"
+    ],
+    [
+     "Right ascension",
+     "5h 35m 16.8s"
+    ],
+    [
+     "Declination",
+     "-5\u00b0 23\u2032 15\u2033"
+    ],
+    [
+     "Distance",
+     "1,345 light-years (412 pc)"
+    ],
+    [
+     "Apparent magnitude",
+     "4"
+    ],
+    [
+     "Apparent size",
+     "66\u2032"
+    ],
+    [
+     "Designations",
+     "M42, NGC 1976"
+    ]
+   ],
+   "simbad": "M 42",
+   "title": "Orion Nebula",
+   "url": "https://en.wikipedia.org/wiki/Orion_Nebula",
+   "description": "diffuse nebula",
+   "extract": "The Orion Nebula (also known as Messier 42, M42, or NGC 1976) is a diffuse nebula in the Milky Way situated south of Orion's Belt in the constellation of Orion, and is known as the middle \"star\" in the \"sword\" of Orion. It is one of the brightest nebulae and is visible to the naked eye in the night sky with an apparent magnitude of 4.0. It is 1,267.0 \u00b1 5.4 light-years (388.5 \u00b1 1.7 pc) away and is the closest region of massive star formation to Earth."
+  },
+  "M 71": {
+   "facts": [
+    [
+     "Type",
+     "Globular cluster"
+    ],
+    [
+     "Constellation",
+     "Sagitta"
+    ],
+    [
+     "Right ascension",
+     "19h 53m 46.5s"
+    ],
+    [
+     "Declination",
+     "+18\u00b0 46\u2032 45\u2033"
+    ],
+    [
+     "Distance",
+     "13,046 light-years (4,000 pc)"
+    ],
+    [
+     "Apparent magnitude",
+     "8.2"
+    ],
+    [
+     "Apparent size",
+     "7.2\u2032"
+    ],
+    [
+     "Designations",
+     "M71, NGC 6838"
+    ]
+   ],
+   "simbad": "M 71",
+   "title": "Messier 71",
+   "url": "https://en.wikipedia.org/wiki/Messier_71",
+   "description": "Globular cluster in the constellation Sagitta",
+   "extract": "Messier 71 (also known as M71, NGC 6838, or the Angelfish Cluster) is a globular cluster in the small northern constellation Sagitta. It was discovered by Philippe Loys de Ch\u00e9seaux in 1745 and included by Charles Messier in his catalog of non-comet-like objects in 1780. It was also noted by Koehler at Dresden around 1775."
+  },
+  "M1 Crab Nebula": {
+   "facts": [
+    [
+     "Type",
+     "Supernova remnant"
+    ],
+    [
+     "Constellation",
+     "Taurus"
+    ],
+    [
+     "Right ascension",
+     "5h 34m 31.8s"
+    ],
+    [
+     "Declination",
+     "+22\u00b0 01\u2032 03\u2033"
+    ],
+    [
+     "Distance",
+     "6,295 light-years (1,930 pc)"
+    ],
+    [
+     "Apparent magnitude",
+     "8.4"
+    ],
+    [
+     "Apparent size",
+     "7\u2032 \u00d7 5\u2032"
+    ],
+    [
+     "Designations",
+     "M1, NGC 1952"
+    ]
+   ],
+   "simbad": "M 1",
+   "title": "Crab Nebula",
+   "url": "https://en.wikipedia.org/wiki/Crab_Nebula",
+   "description": "Supernova remnant",
+   "extract": "The Crab Nebula (catalogue designations M1, NGC 1952, Taurus A) is a supernova remnant and pulsar wind nebula in the constellation of Taurus. The common name comes from a drawing that somewhat resembled a crab with arms produced by William Parsons, 3rd Earl of Rosse, in 1842 or 1843 using a 36-inch (91 cm) telescope. The nebula was discovered by English astronomer John Bevis in 1731."
+  },
+  "M27 Dumbbell Nebula": {
+   "facts": [
+    [
+     "Type",
+     "Planetary nebula"
+    ],
+    [
+     "Constellation",
+     "Vulpecula"
+    ],
+    [
+     "Right ascension",
+     "19h 59m 36.4s"
+    ],
+    [
+     "Declination",
+     "+22\u00b0 43\u2032 16\u2033"
+    ],
+    [
+     "Distance",
+     "1,227 light-years (376 pc)"
+    ],
+    [
+     "Apparent magnitude",
+     "7.4"
+    ],
+    [
+     "Apparent size",
+     "6.7\u2032"
+    ],
+    [
+     "Designations",
+     "M27, NGC 6853"
+    ]
+   ],
+   "simbad": "M 27",
+   "title": "Dumbbell Nebula",
+   "url": "https://en.wikipedia.org/wiki/Dumbbell_Nebula",
+   "description": "Planetary nebula",
+   "extract": "The Dumbbell Nebula (also known as the Apple Core Nebula, Messier 27, and NGC 6853) is a planetary nebula (nebulosity surrounding a white dwarf) in the constellation Vulpecula, at a distance of about 1360 light-years. It was the first such nebula to be discovered, by Charles Messier in 1764. At its brightness of visual magnitude 7.5 and diameter of about 8 arcminutes, it is easily visible in binoculars and is a popular observing target in amateur telescopes."
+  },
+  "M31": {
+   "facts": [
+    [
+     "Type",
+     "Spiral galaxy, galaxy"
+    ],
+    [
+     "Constellation",
+     "Andromeda"
+    ],
+    [
+     "Right ascension",
+     "0h 42m 44.3s"
+    ],
+    [
+     "Declination",
+     "+41\u00b0 16\u2032 08\u2033"
+    ],
+    [
+     "Distance",
+     "2.67 million light-years (0.82 Mpc)"
+    ],
+    [
+     "Apparent magnitude",
+     "3.44"
+    ],
+    [
+     "Apparent size",
+     "200\u2032 \u00d7 70.8\u2032"
+    ],
+    [
+     "Designations",
+     "HD 3969, M31, NGC 224"
+    ]
+   ],
+   "simbad": "M 31",
+   "title": "Andromeda Galaxy",
+   "url": "https://en.wikipedia.org/wiki/Andromeda_Galaxy",
+   "description": "barred spiral galaxy within the Local Group",
+   "extract": "The Andromeda Galaxy is a barred spiral galaxy and is the nearest major galaxy to the Milky Way. It was originally named the Andromeda Nebula and is cataloged as Messier 31, M31, and NGC 224. Andromeda has a D25 isophotal diameter of about 46.56 kiloparsecs (152,000 light-years) and is approximately 765 kpc (2.5 million light-years) from Earth."
+  },
+  "M31 Andromeda Galaxy": {
+   "facts": [
+    [
+     "Type",
+     "Spiral galaxy, galaxy"
+    ],
+    [
+     "Constellation",
+     "Andromeda"
+    ],
+    [
+     "Right ascension",
+     "0h 42m 44.3s"
+    ],
+    [
+     "Declination",
+     "+41\u00b0 16\u2032 08\u2033"
+    ],
+    [
+     "Distance",
+     "2.67 million light-years (0.82 Mpc)"
+    ],
+    [
+     "Apparent magnitude",
+     "3.44"
+    ],
+    [
+     "Apparent size",
+     "200\u2032 \u00d7 70.8\u2032"
+    ],
+    [
+     "Designations",
+     "HD 3969, M31, NGC 224"
+    ]
+   ],
+   "simbad": "M 31",
+   "title": "Andromeda Galaxy",
+   "url": "https://en.wikipedia.org/wiki/Andromeda_Galaxy",
+   "description": "barred spiral galaxy within the Local Group",
+   "extract": "The Andromeda Galaxy is a barred spiral galaxy and is the nearest major galaxy to the Milky Way. It was originally named the Andromeda Nebula and is cataloged as Messier 31, M31, and NGC 224. Andromeda has a D25 isophotal diameter of about 46.56 kiloparsecs (152,000 light-years) and is approximately 765 kpc (2.5 million light-years) from Earth."
+  },
+  "M33 Triangulum Galaxy": {
+   "facts": [
+    [
+     "Type",
+     "Flocculent spiral galaxy, galaxy"
+    ],
+    [
+     "Constellation",
+     "Triangulum"
+    ],
+    [
+     "Right ascension",
+     "1h 33m 50.9s"
+    ],
+    [
+     "Declination",
+     "+30\u00b0 39\u2032 37\u2033"
+    ],
+    [
+     "Distance",
+     "2.61 million light-years (0.8 Mpc)"
+    ],
+    [
+     "Apparent magnitude",
+     "5.72"
+    ],
+    [
+     "Apparent size",
+     "60.3\u2032 \u00d7 35.5\u2032"
+    ],
+    [
+     "Designations",
+     "M33, NGC 598"
+    ]
+   ],
+   "simbad": "M 33",
+   "title": "Triangulum Galaxy",
+   "url": "https://en.wikipedia.org/wiki/Triangulum_Galaxy",
+   "description": "spiral galaxy in the constellation of Triangulum",
+   "extract": "The Triangulum Galaxy is a spiral galaxy  2.878 million light-years (ly) from Earth in the constellation Triangulum. It is catalogued as Messier 33 or NGC 598. With the D25 isophotal diameter of 18.74 kiloparsecs (61,100 light-years), the Triangulum Galaxy is the third-largest member of the Local Group of galaxies, behind the Andromeda Galaxy and the Milky Way."
+  },
+  "M45 Pleiades": {
+   "facts": [
+    [
+     "Type",
+     "Open cluster"
+    ],
+    [
+     "Constellation",
+     "Taurus"
+    ],
+    [
+     "Right ascension",
+     "3h 46m 24.2s"
+    ],
+    [
+     "Declination",
+     "+24\u00b0 06\u2032 50\u2033"
+    ],
+    [
+     "Distance",
+     "438 light-years (134 pc)"
+    ],
+    [
+     "Apparent magnitude",
+     "1.6"
+    ],
+    [
+     "Apparent size",
+     "76.9\u2032"
+    ],
+    [
+     "Designations",
+     "M45"
+    ]
+   ],
+   "simbad": "Cl Melotte 22",
+   "title": "Pleiades",
+   "url": "https://en.wikipedia.org/wiki/Pleiades",
+   "description": "open cluster in the constellation of Taurus",
+   "extract": "The Pleiades ( PLEE-\u0259-deez, PLAY-, PLY-), also known as Seven Sisters and Messier 45 (M45), is an asterism of an open star cluster containing young B-type stars in the northwest of the constellation Taurus. At a distance of about 444 light-years, it is among the star clusters nearest to Earth and is the Messier object nearest to Earth, being the star cluster most obvious to the naked eye in the night sky. It contains over 1,000 stars, with the brightest six or seven being easily visible to the naked eye."
+  },
+  "Mirach": {
+   "facts": [
+    [
+     "Type",
+     "Double star, infrared source"
+    ],
+    [
+     "Constellation",
+     "Andromeda"
+    ],
+    [
+     "Right ascension",
+     "1h 09m 43.9s"
+    ],
+    [
+     "Declination",
+     "+35\u00b0 37\u2032 14\u2033"
+    ],
+    [
+     "Distance",
+     "199 light-years (61 pc)"
+    ],
+    [
+     "Apparent magnitude",
+     "2.05"
+    ],
+    [
+     "Designations",
+     "HIP 5447, HD 6860"
+    ]
+   ],
+   "simbad": "* bet And",
+   "title": "Mirach",
+   "url": "https://en.wikipedia.org/wiki/Mirach",
+   "description": "star in the northern constellation of Andromeda",
+   "extract": "Mirach is a prominent star in the northern constellation of Andromeda. It is pronounced  and has the Bayer designation Beta Andromedae, which is Latinized from \u03b2 Andromedae. This star is positioned northeast of the Great Square of Pegasus and is potentially visible to all observers north of latitude 54\u00b0 S. It is commonly used by stargazers to find the Andromeda Galaxy."
+  },
+  "NGC 2175": {
+   "facts": [
+    [
+     "Type",
+     "Open cluster, astronomical radio source"
+    ],
+    [
+     "Constellation",
+     "Orion"
+    ],
+    [
+     "Right ascension",
+     "6h 09m 39.0s"
+    ],
+    [
+     "Declination",
+     "+20\u00b0 29\u2032 12\u2033"
+    ],
+    [
+     "Distance",
+     "7,273 light-years (2,230 pc)"
+    ],
+    [
+     "Apparent magnitude",
+     "6.8"
+    ],
+    [
+     "Designations",
+     "NGC 2175"
+    ]
+   ],
+   "simbad": "NGC 2175",
+   "title": "NGC 2175",
+   "url": "https://en.wikipedia.org/wiki/NGC_2175",
+   "description": "open cluster in the constellation Orion",
+   "extract": "NGC 2175 is a very young open cluster of stars in the equatorial constellation of Orion. It was discovered by Italian astronomer Giovanni Batista Hodierna before 1654 and independently discovered by German astronomer Karl Christian Bruhns on February 6, 1877. NGC 2175 is at a distance of about 5,290 light years away from Earth, and it is embedded in a diffuse nebula, NGC 2174."
+  },
+  "NGC 281W": {
+   "facts": [
+    [
+     "Type",
+     "H II region, open cluster"
+    ],
+    [
+     "Constellation",
+     "Cassiopeia"
+    ],
+    [
+     "Right ascension",
+     "0h 52m 25.1s"
+    ],
+    [
+     "Declination",
+     "+56\u00b0 33\u2032 54\u2033"
+    ],
+    [
+     "Distance",
+     "9,500 light-years (2,913 pc)"
+    ],
+    [
+     "Apparent magnitude",
+     "7.4"
+    ],
+    [
+     "Designations",
+     "NGC 281, NGC 281W"
+    ]
+   ],
+   "simbad": "NGC 281",
+   "title": "NGC 281",
+   "url": "https://en.wikipedia.org/wiki/NGC_281",
+   "description": "emission nebula in the constellation Cassiopeia",
+   "extract": "NGC 281, IC 11 or Sh2-184 is a bright emission nebula and part of an H II region in the northern constellation of Cassiopeia and is part of the Milky Way's Perseus Spiral Arm. This 20\u00d730 arcmin sized nebulosity is also associated with open cluster IC 1590, several Bok globules and the multiple star, B 1. It collectively forms Sh2-184, spanning over a larger area of 40 arcmin."
+  },
+  "NGC 6633": {
+   "facts": [
+    [
+     "Type",
+     "Open cluster"
+    ],
+    [
+     "Constellation",
+     "Ophiuchus"
+    ],
+    [
+     "Right ascension",
+     "18h 27m 22.8s"
+    ],
+    [
+     "Declination",
+     "+6\u00b0 36\u2032 54\u2033"
+    ],
+    [
+     "Distance",
+     "1,256 light-years (385 pc)"
+    ],
+    [
+     "Apparent magnitude",
+     "4.6"
+    ],
+    [
+     "Apparent size",
+     "43.2\u2032"
+    ],
+    [
+     "Designations",
+     "NGC 6633"
+    ]
+   ],
+   "simbad": "NGC 6633",
+   "title": "NGC 6633",
+   "url": "https://en.wikipedia.org/wiki/NGC_6633",
+   "description": "open cluster",
+   "extract": "NGC 6633 is a large bright open cluster in the constellation Ophiuchus. Discovered in 1745-46 by Philippe Loys de Ch\u00e9seaux, it was independently rediscovered by Caroline Herschel in 1783 and included in her brother William's catalog as H VIII.72. Bright enough to be seen with the naked eye, the cluster is considered a fine object for binoculars or small telescopes."
+  },
+  "NGC 6888": {
+   "facts": [
+    [
+     "Type",
+     "Supernova remnant, interstellar medium"
+    ],
+    [
+     "Constellation",
+     "Cygnus"
+    ],
+    [
+     "Right ascension",
+     "20h 12m 06.5s"
+    ],
+    [
+     "Declination",
+     "+38\u00b0 21\u2032 18\u2033"
+    ],
+    [
+     "Distance",
+     "5,651 light-years (1,733 pc)"
+    ],
+    [
+     "Apparent magnitude",
+     "7.4"
+    ],
+    [
+     "Designations",
+     "HIP 99546, HD 192163, NGC 6888"
+    ]
+   ],
+   "simbad": "HD 192163",
+   "title": "Crescent Nebula",
+   "url": "https://en.wikipedia.org/wiki/Crescent_Nebula",
+   "description": "supernova remnant in the constellation Cygnus",
+   "extract": "The Crescent Nebula (also known as NGC 6888, Caldwell 27, Sharpless 105) is an emission nebula in the constellation Cygnus, about 5000 light-years away from Earth. It was discovered by William Herschel in 1792. It is formed by the fast stellar wind from the Wolf-Rayet star WR 136 (HD 192163) colliding with and energizing the slower moving wind ejected by the star when it became a red giant around 250,000 years ago."
+  },
+  "NGC 7000": {
+   "facts": [
+    [
+     "Type",
+     "H II region"
+    ],
+    [
+     "Constellation",
+     "Cygnus"
+    ],
+    [
+     "Right ascension",
+     "20h 58m 47.0s"
+    ],
+    [
+     "Declination",
+     "+44\u00b0 19\u2032 48\u2033"
+    ],
+    [
+     "Distance",
+     "1,950 light-years (598 pc)"
+    ],
+    [
+     "Apparent magnitude",
+     "4"
+    ],
+    [
+     "Designations",
+     "NGC 7000"
+    ]
+   ],
+   "simbad": "NGC 7000",
+   "title": "North America Nebula",
+   "url": "https://en.wikipedia.org/wiki/North_America_Nebula",
+   "description": "H II region in the constellation Cygnus",
+   "extract": "The North America Nebula (NGC 7000 or Caldwell 20) is an emission nebula in the constellation Cygnus, close to Deneb (the tail of the swan and its brightest star) in the night sky. It is named because its shape resembles North America."
+  },
+  "NGC 7380": {
+   "facts": [
+    [
+     "Type",
+     "Open cluster"
+    ],
+    [
+     "Constellation",
+     "Cepheus"
+    ],
+    [
+     "Right ascension",
+     "22h 47m 16.0s"
+    ],
+    [
+     "Declination",
+     "+58\u00b0 07\u2032 30\u2033"
+    ],
+    [
+     "Distance",
+     "8,000 light-years (2,453 pc)"
+    ],
+    [
+     "Apparent magnitude",
+     "7.2"
+    ],
+    [
+     "Apparent size",
+     "10.8\u2032"
+    ],
+    [
+     "Designations",
+     "NGC 7380"
+    ]
+   ],
+   "simbad": "NGC 7380",
+   "title": "NGC 7380",
+   "url": "https://en.wikipedia.org/wiki/NGC_7380",
+   "description": "open cluster in the constellation Cepheus",
+   "extract": "NGC 7380 is a young open cluster of stars in the northern circumpolar constellation of Cepheus, discovered by Caroline Herschel in 1787. The surrounding emission nebulosity is known colloquially as the Wizard Nebula, which spans an angle of 25\u2032. German-born astronomer William Herschel included his sister's discovery in his catalog, and labelled it H VIII.77."
+  },
+  "NGC 869": {
+   "facts": [
+    [
+     "Type",
+     "Open cluster"
+    ],
+    [
+     "Constellation",
+     "Perseus"
+    ],
+    [
+     "Right ascension",
+     "2h 18m 57.8s"
+    ],
+    [
+     "Declination",
+     "+57\u00b0 08\u2032 02\u2033"
+    ],
+    [
+     "Distance",
+     "6,781 light-years (2,079 pc)"
+    ],
+    [
+     "Apparent magnitude",
+     "5.3"
+    ],
+    [
+     "Apparent size",
+     "16.3\u2032"
+    ],
+    [
+     "Designations",
+     "NGC 869"
+    ]
+   ],
+   "simbad": "NGC 869",
+   "title": "NGC 869",
+   "url": "https://en.wikipedia.org/wiki/NGC_869",
+   "description": "open cluster in the constellation Perseus",
+   "extract": "NGC 869 (also known as h Persei) is an open cluster of stars located around 7,460 light years away in the constellation of Perseus. The cluster is around 14 million years old. It is the west component of the Double Cluster with NGC 884."
+  },
+  "North America Nebula": {
+   "facts": [
+    [
+     "Type",
+     "H II region"
+    ],
+    [
+     "Constellation",
+     "Cygnus"
+    ],
+    [
+     "Right ascension",
+     "20h 58m 47.0s"
+    ],
+    [
+     "Declination",
+     "+44\u00b0 19\u2032 48\u2033"
+    ],
+    [
+     "Distance",
+     "1,950 light-years (598 pc)"
+    ],
+    [
+     "Apparent magnitude",
+     "4"
+    ],
+    [
+     "Designations",
+     "NGC 7000"
+    ]
+   ],
+   "simbad": "NGC 7000",
+   "title": "North America Nebula",
+   "url": "https://en.wikipedia.org/wiki/North_America_Nebula",
+   "description": "H II region in the constellation Cygnus",
+   "extract": "The North America Nebula (NGC 7000 or Caldwell 20) is an emission nebula in the constellation Cygnus, close to Deneb (the tail of the swan and its brightest star) in the night sky. It is named because its shape resembles North America."
+  },
+  "Vega": {
+   "facts": [
+    [
+     "Type",
+     "A-type main sequence star, Delta Scuti variable"
+    ],
+    [
+     "Constellation",
+     "Lyra"
+    ],
+    [
+     "Right ascension",
+     "18h 36m 56.3s"
+    ],
+    [
+     "Declination",
+     "+38\u00b0 47\u2032 01\u2033"
+    ],
+    [
+     "Distance",
+     "25 light-years (7.67 pc)"
+    ],
+    [
+     "Apparent magnitude",
+     "0.026"
+    ],
+    [
+     "Designations",
+     "HIP 91262, HD 172167"
+    ]
+   ],
+   "simbad": "* alf Lyr",
+   "title": "Vega",
+   "url": "https://en.wikipedia.org/wiki/Vega",
+   "description": "star in the constellation Lyra",
+   "extract": "Vega is the brightest star in the northern constellation of Lyra. It has the Bayer designation \u03b1 Lyrae, which is Latinised to Alpha Lyrae and abbreviated Alpha Lyr or \u03b1 Lyr. This star is relatively close to the Solar System, at only 25 light-years (7.7 parsecs) from the Sun, and one of the most luminous stars in the Sun's neighborhood, being intrinsically brighter than any star nearer to the Sun."
+  }
+ }
+}
